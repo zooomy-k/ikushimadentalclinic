@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	
+	font-family: 'Noto Sans JP', sans-serif;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing:border-box;
+}
+
+html{
+	-webkit-text-size-ajust:100%;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img,input,select,textarea{
+	vertical-align:middle;
+}
+img{
+	max-width:100%;
+	height:auto;
+	border:0;
+}
+/*-----------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6, input, button, textarea, select, p, blockquote, th, td, pre, address, li, dt, dd, a {
+	font-size: 140%;
+	color:#535353;
+	-webkit-text-size-adjust: none;
+}
+header, section, footer, aside, nav, main, article, figure {
+	display: block;
+}
+a {
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #59493f;
+	text-decoration:underline;
+}
+a.no-hover:hover {
+	opacity: 1!important;
+}
+.center{
+	text-align:center;
+}
+p {
+	margin: 0 0 1.5em;
+	text-indent: 1em;
+}
+.bold {
+	font-weight: bold;
+}
+table {
+	width: 100%;
+}
+.section {
+	margin: 0 0 45px;
+}
+.section .section {
+	margin: 0 0 30px;
+}
+p, dd, td, th, li {
+	line-height: 1.9em;
+}
+.image-l {
+	float: left;
+	margin: 0 16px 8px 0;
+}
+.image-r {
+	float: right;
+	margin: 0 0 8px 16px;
+}
+
+html {
+	background: none;
+	scroll-behavior: smooth;
+}
+.clearfix{
+	display: block;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+}
