@@ -1,0 +1,358 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>イクシマ歯科クリニック</title>
+<link href="css/slick.css" rel="stylesheet" type="text/css">
+<link href="css/slick-theme.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" media="all">
+<link rel="icon" href="images/ico_idc.png">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap" rel="stylesheet">
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/main.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+  <header id="header">
+    <div class="container">
+      <h1 id="top">阪急線下新庄駅から徒歩1分にある歯医者「イクシマ歯科クリニック」のホームページです。</h1>
+      <p class="h_box"><a href="#">24h<br>
+        Web予約</a></p>
+      <p class="h_logo"><a href="index.html"><img src="images/logo.png" alt="イクシマ歯科クリニックIkushimaDentalClinic"></a></p>
+      <div class="h_text center">
+        <p class="h_text_01">下新庄駅から徒歩1分</p><p class="h_text_02">駐車場2台完備</p>
+        <!--.h_text--></div>
+      <p class="h_tel">06-4862-4412</p>
+      <!-- .container --></div>
+  </header>
+  <nav id="gnav">
+    <div class="container">
+      <ul class="gnav">
+        <li class="gnav_home"><a href="index.html"><img src="images/home.png" alt="ホーム"></a></li><li><a href="feature.html">医院の特徴</a></li><li><a href="#">治療内容</a><ul  class="subs"><li><a href="t_general.html">一般歯科</a></li><li><a href="t_kids.html">小児歯科</a></li><li><a href="t_esthetic.html">審美歯科</a></li><li><a href="t_whitening.html">ホワイトニング</a></li><li><a href="t_house.html">訪問歯科</a></li><li><a href="t_preventive.html">予防歯科</a></li></ul></li><li><a href="staff.html">スタッフ紹介</a></li><li><a href="guide.html">医院案内</a></li><li><a href="access.html">アクセス</a></li></ul>
+      <!-- .container --></div>
+  </nav>
+  <div class="mainvisual">
+    <div class="slider mypattern">
+      <div><img src="images/top_slide-01.jpg">
+        <p class="slide_text bold">自然に笑顔が集まる歯医者さん<br>
+          <span>一人一人に寄り添った
+          <ruby>丁
+            <rt>●</rt>
+          </ruby>
+          <ruby>寧
+            <rt>●</rt>
+          </ruby>
+          <ruby>な
+            <rt>●</rt>
+          </ruby>
+          <ruby>治
+            <rt>●</rt>
+          </ruby>
+          <ruby>療
+            <rt>●</rt>
+          </ruby>
+          をします</span></p>
+      </div>
+      <div><img src="images/top_slide-02.jpg">
+        <p class="slide_text bold">誰でも気軽にお越しいただける歯医者さん<br>
+          <span>親しみやすい
+          <ruby>ア
+            <rt>●</rt>
+          </ruby>
+          <ruby>ッ
+            <rt>●</rt>
+          </ruby>
+          <ruby>ト
+            <rt>●</rt>
+          </ruby>
+          <ruby>ホ
+            <rt>●</rt>
+          </ruby>
+          <ruby>ー
+            <rt>●</rt>
+          </ruby>
+          <ruby>ム
+            <rt>●</rt>
+          </ruby>
+          な空間を目指します</span></p>
+      </div>
+      <div><img src="images/top_slide-03.jpg">
+        <p class="slide_text bold">悩みや不安を取りのぞく歯医者さん<br>
+          <span>全ての人に
+          <ruby>分
+            <rt>●</rt>
+          </ruby>
+          <ruby>か
+            <rt>●</rt>
+          </ruby>
+          <ruby>り
+            <rt>●</rt>
+          </ruby>
+          <ruby>や
+            <rt>●</rt>
+          </ruby>
+          <ruby>す
+            <rt>●</rt>
+          </ruby>
+          <ruby>い
+            <rt>●</rt>
+          </ruby>
+          <ruby>説
+            <rt>●</rt>
+          </ruby>
+          <ruby>明
+            <rt>●</rt>
+          </ruby>
+          をします</span></p>
+      </div>
+      <div><img src="images/top_slide-04.jpg">
+        <p class="slide_text bold">地域に密着した歯医者さん<br>
+          <span>ご家族皆さまの
+          <ruby>お
+            <rt>●</rt>
+          </ruby>
+          <ruby>口
+            <rt>●</rt>
+          </ruby>
+          <ruby>の
+            <rt>●</rt>
+          </ruby>
+          <ruby>健
+            <rt>●</rt>
+          </ruby>
+          <ruby>康
+            <rt>●</rt>
+          </ruby>
+          をサポートします</span></p>
+      </div>
+    </div>
+  </div>
+  <div id="contents">
+    <main class="main">
+      <div class="container">
+        <div class="covid center">
+          <h3>新型コロナウイルスの影響に関してまして</h3>
+          <p><span class="bold">当院は万全の感染対策を行いながら、通常通り診療いたしております。</span><br>
+            患者さんに安心して治療を受けていただく為に、
+            徹底した感染対策を行なっております。<br>
+            ご理解並びに感染対策にご協力頂きますよう心からお願い申し上げます。<br>
+            ※現在キッズスペースのおもちゃ等は一時的に撤去しております。<br>
+          </p>
+          <!--.covid--></div>
+        <!--.container--></div>
+      <section>
+        <div class="container">
+          <div class="b01_list">
+            <h3 class="idx_h3"><span>安心して通える</span>歯医者さんであるために</h3>
+            <div class="b01_list_inner">
+              <dl>
+                <dt><span>1</span>キッズスペース</dt>
+                <dd> 待合室、診療台の横におもちゃや絵本などをご用意しておりますので、お子さまとも安心して来院いただけます。 </dd>
+              </dl>
+              <dl>
+                <dt><span>2</span>痛くない治療</dt>
+                <dd>待合室、診療台の横におもちゃや絵本などをご用意しておりますので、お子さまとも安心して来院いただけます。</dd>
+              </dl>
+              <dl>
+                <dt><span>3</span>訪問歯科</dt>
+                <dd>通うのが難しい方には歯科医師と衛生士がご自宅や施設の方まで診療に行かせていただいております。</dd>
+              </dl>
+              <dl>
+                <dt><span>4</span>女性医師が在籍</dt>
+                <dd>女性ならではのきめ細やかな対応と配慮で、安心の治療をお届けします。 </dd>
+              </dl>
+              <dl>
+                <dt><span>5</span>駐車場完備</dt>
+                <dd>駐車場を２台分ご用意しておりますので、お車でもお越しいただきやすいです。</dd>
+              </dl>
+              <dl>
+                <dt><span>6</span>安心のバリアフリー</dt>
+                <dd>バリアフリー設計になっていますのでベビーカーや車いすの方も安心してご来院いただけます。</dd>
+              </dl>
+              <div class="clearfix"></div>
+              <p class="idx_button"><a href="feature.html">イクシマ歯科クリニックの<br>
+                特徴を見る</a></p>
+              <!--.b01_list_inner--></div>
+            <!--.b01_list--></div>
+          <!--.container--></div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="b02_list">
+            <h3 class="idx_h3"><span>通いやすい</span>歯医者さんを目指します</h3>
+            <div class="b02_list_inner">
+              <div class="b02_list01"><img src="images/h4_01.jpg" alt="アットホームな歯医者さん">
+                <div class="b02_list01_inner">
+                  <p class="b02_list01_idx"><span class="bold">アットホームな歯医者さん</span></p>
+                  <p class="b02_list01_content">患者さんとともに口腔ケアを行なって行くことで、大切な歯を長持ちさせることができます。
+                    当院ではお悩みなどを気軽に話せるような雰囲気作りにも気をつけています。
+                    小さなことでもお気軽にご相談ください。</p>
+                  <!-- .b02_list01_inner --></div>
+                <!-- .b02_list01 --></div>
+              <div class="b02_list02"> <img src="images/h4_02.jpg" alt="保険診療中心の治療を提案">
+                <div class="b02_list02_inner">
+                  <p class="b02_list02_idx"><span class="bold">保険診療中心の治療を提案</span></p>
+                  <p class="b02_list02_content">当院では保険中心の診療を行なっております。<br>
+                    患者さんにとっての最善を考え、自費診療の方がいいと判断した場合でも、説明し理解をえた上で患者さん自身に判断してもらいますので安心して来院ください。</p>
+                  <!-- .b02_list02_inner --></div>
+                <!-- .b02_list02 --></div>
+              <!--.b02_list_inner--></div>
+            <!--.b02_list--></div>
+          <!--.container--></div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="b03_list">
+            <h3 class="idx_h3">全ての人に<span>寄り添う</span>歯医者さんです</h3>
+            <div class="b03_list_inner">
+              <div class="b03_list01">
+                <div class="b03_list01_img"> <img src="images/h3_01.jpg" alt="訪問歯科"> 
+                  <!-- .b03_list01_img --></div>
+                <div class="b03_list01_main">
+                  <div class="b03_list01_inner">
+                    <div class="b03_list01_inner_idx">
+                      <h4>訪問歯科<br>
+                        <span class="b03_list01_inner_idx_01">QOLを向上して<br>
+                        健康的な生活を送りましょう</span> </h4>
+                      <!-- .b03_list01_inner_idx --></div>
+                    <div class="b03_list01_inner_content">
+                      <p>「QOL(Quality of Life)」とは「生活の質の向上を目指す」という意味の言葉で、ただ長生きするだけでなく、質の高い充実した人生を送るようにすることです。</p>
+                      <p>QOLの向上にお口の中の健康は重要な役割を果たしています。お口の健康を維持することは、からだ全体の健康にも大きくつながっています。
+                        当院では訪問歯科を通じて、患者さんのQOL向上に努めています。</p>
+                      <!-- .b03_list01_inner_content --></div>
+                    <!-- .b03_list01_inner --></div>
+                  <!-- .b03_list01_main --></div>
+                <!-- .b03_list01--></div>
+              <div class="b03_list02">
+                <div class="b03_list02_img"> <img src="images/h3_02.jpg" alt="小児歯科"> 
+                  <!-- .b03_list02_img --></div>
+                <div class="b03_list02_main">
+                  <div class="b03_list02_inner">
+                    <div class="b03_list02_inner_idx">
+                      <h4>小児歯科<br>
+                        <span class="b03_list02_inner_idx_01">大切なお子さまを<br>
+                        むし歯から守りましょう</span> </h4>
+                      <!-- .b03_list02_inner_idx --></div>
+                    <div class="b03_list02_inner_content">
+                      <p>イクシマ歯科クリニックでは、お子さまと親子で通いやすい歯医者さんを目指しています。</p>
+                      <p>乳歯はむし歯になりやすく進行も早いのが特徴です。いずれ抜ける乳歯だからと思っている親御さんもよくいらっしゃいますが、乳歯のむし歯は永久歯のむし歯リスクを高めてしまいます。大切なお子さまの歯を守るために一度当院にお越しください。</p>
+                      <!-- .b03_list02_inner_content --></div>
+                    <!-- .b03_list02_inner --></div>
+                  <!-- .b03_list02_main --></div>
+                <!-- .b03_list02--></div>
+              <!-- .b03_list_inner --></div>
+            <!-- .b03_list --></div>
+          <!--.container--></div>
+      </section>
+      <div class="container">
+        <div class="b04_list">
+          <h3>診療内容</h3>
+          <div class="b04_list_inner">
+            <div class="b04_list_item"> <a href="t_general.html">
+              <p class="b04_list_img"><img src="images/general.png" alt="一般歯科"></p>
+              <p class="b04_list_txt">歯が痛い、しみる<span class="b04_list_idx">一般歯科</span></p>
+              </a> 
+              <!-- .04_list_item --></div>
+            <div class="b04_list_item"> <a href="t_kids.html">
+              <p class="b04_list_img"><img src="images/kids.png" alt="小児歯科"></p>
+              <p class="b04_list_txt">子どもの歯を守りたい <span class="b04_list_idx">小児歯科</span></p>
+              </a> 
+              <!-- .04_list_item --></div>
+            <div class="b04_list_item"> <a href="t_esthetic.html">
+              <p class="b04_list_img"><img src="images/esthetic.png" alt="審美歯科"></p>
+              <p class="b04_list_txt">銀歯が気になる <span class="b04_list_idx">審美歯科</span></p>
+              </a> 
+              <!-- .04_list_item --></div>
+            <div class="b04_list_item"> <a href="t_whitening.html">
+              <p class="b04_list_img"><img src="images/whitening.png" alt="ホワイトニング"></p>
+              <p class="b04_list_txt">歯を白くしたい <span class="b04_list_idx">ホワイトニング</span></p>
+              </a> 
+              <!-- .04_list_item --></div>
+            <div class="b04_list_item"> <a href="t_house.html">
+              <p class="b04_list_img"><img src="images/house.png" alt="訪問歯科"></p>
+              <p class="b04_list_txt">歯医者に行けない <span class="b04_list_idx">訪問歯科</span></p>
+              </a> 
+              <!-- .04_list_item --></div>
+            <div class="b04_list_item"> <a href="t_preventive.html">
+              <p class="b04_list_img"><img src="images/preventive.png" alt="予防歯科"></p>
+              <p class="b04_list_txt">むし歯、歯周病を防ぐ <span class="b04_list_idx">予防歯科</span></p>
+              </a> 
+              <!-- .04_list_item --></div>
+            <!-- .04_list --></div>
+          <!-- .04_list_inner --></div>
+        <!-- .container --></div>
+      </section>
+    </main>
+    <!--#contents--></div>
+  <aside>
+    <div class="container">
+      <div class="aside">
+        <div class="aside_inner">
+          <div class="aside_map">
+            <p><img src="images/map.png"　alt="マップ"></p>
+            <div class="aside_way">
+              <p>阪急電車<br>
+                <span class="bold">下新庄駅</span>から<br>
+                徒歩1分</p>
+              <p>大阪シティバス<br>
+                <span class="bold">下新庄駅西口</span>から<br>
+                徒歩1分</p>
+              <p><span class="bold">駐車場</span><br>
+                完備</p>
+              <!--.aside_way--></div>
+            <!--.aside_map--></div>
+          <div class="aside_info">
+            <p class="aside_logo"><img src="images/logo.png" alt="イクシマ歯科クリニックロゴ"></p>
+            <p class="aside_adress">〒533-0021 大阪府大阪市東淀川区下新庄4-11-34</p>
+            <p class="aside_tel">06-4862-4412</p>
+            <p class="aside_time bold"> 診療時間</p>
+            <p><img src="images/time.png" alt="診療時間"></p>
+            <!--.aside_info--></div>
+          <!--.asider_inner--></div>
+        <!--.asider--></div>
+      <!--.container--></div>
+  </aside>
+  <footer id="footer">
+    <p id="totop"><a href="#wrapper"><img src="images/totop.png" alt="totop"></a></p>
+    <div class="footer">
+      <div class="footer_inner">
+        <div class="footer_main">
+          <div class="footer_main_inner">
+            <ul>
+              <li><a href="index.html">ホーム</a></li>
+              <li><a href="feature.html">医院の特徴</a></li>
+              <li><a href="staff.html">スタッフ紹介</a></li>
+              <li><a href="guide.html">医院案内</a></li>
+              <li><a href="access.html">アクセス</a></li>
+            </ul>
+            <ul>
+              <li><span>治療内容</span></li>
+              <div class="footer_li">
+                <div class="footer_li_1">
+                  <li><a href="t_general.html">一般歯科</a></li>
+                  <li><a href="t_kids.html">小児歯科</a></li>
+                  <li><a href="t_esthetic.html">審美歯科</a></li>
+                  <li><a href="t_whitening.html">ホワイトニング</a></li>
+                </div>
+                <div class="footer_li_2">
+                  <li><a href="t_house.html">訪問歯科</a></li>
+                  <li><a href="t_preventive.html">予防歯科</a></li>
+                </div>
+              </div>
+            </ul>
+            <!--.footer_main_inner--></div>
+          <!--.footer_main--></div>
+        <div class="footer_img"><img src="images/footer.jpg"　alt="フッター画像"><!--.footer_img--></div>
+        <!--.footer_inner--> </div>
+      <!--.footer--> </div>
+    <p class="copyright"><small>Copyright&copy;イクシマ歯科クリニックAll Rights Reserved.</small></p>
+  </footer>
+  <!-- #wrapper --></div>
+</body>
+</html>
